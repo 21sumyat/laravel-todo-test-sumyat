@@ -2,7 +2,7 @@ name: Deploy ToDo App
 on: 
   push: 
     branches: 
-      - master 
+      - main 
 jobs: 
   deployapp: 
     runs-on: ubuntu-latest 
